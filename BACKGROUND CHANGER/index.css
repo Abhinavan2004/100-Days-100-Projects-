@@ -1,0 +1,116 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #111;
+}
+
+.button-box{
+    display:flex;
+    align-items:baseline;
+    justify-content:center;
+    gap:40px;
+    padding:20px;
+    margin:10px;
+    font-size:5rem;
+}
+
+button{
+    height:60px;
+    width:140px;
+    border:3px solid black;
+    border-radius:20px;
+    font-size:1rem;
+    font-weight: 600;
+}
+
+
+.blue-btn , .red-btn , .orange-btn , .green-btn , .yellow-btn , .white-btn{
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #111;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  .blue-btn {
+    background: rgb(0,140,255);
+    box-shadow: 0 0 25px rgb(0,140,255);
+  }
+
+  .red-btn {
+    background: #EA4848;
+    box-shadow: 0 0 25px #EA4848;
+  }
+
+  .green-btn{
+    background: #91F3B5;
+    box-shadow: 0 0 25px #91F3B5;
+  }
+
+  .white-btn{
+    background: #FFEEE2;
+    box-shadow: 0 0 25px #FFEEE2;
+  }
+
+  .yellow-btn{
+    background: #FEFB72;
+    box-shadow: 0 0 25px #FEFB72;
+  }
+
+  .orange-btn{
+    background: #B10F2E;
+    box-shadow: 0 0 25px #B10F2E;
+  }
+  
+  .blue-btn:hover {
+    box-shadow: 0 0 5px rgb(0,140,255),
+                0 0 25px rgb(0,140,255),
+                0 0 50px rgb(0,140,255),
+                0 0 100px rgb(0,140,255);
+  }
+
+  .red-btn:hover{
+    box-shadow: 0 0 5px #EA4848,
+                0 0 25px #EA4848,
+                0 0 50px #EA4848,
+                0 0 100px #EA4848;
+  }
+
+  .green-btn:hover{
+    box-shadow: 0 0 5px #91F3B5,
+                0 0 25px #91F3B5,
+                0 0 50px #91F3B5,
+                0 0 100px #91F3B5;
+  }
+
+.white-btn:hover{
+    box-shadow: 0 0 5px #FFEEE2,
+                0 0 25px #FFEEE2,
+                0 0 50px #FFEEE2,
+                0 0 100px #FFEEE2;
+  }
+
+
+.yellow-btn:hover{
+    box-shadow: 0 0 5px #FEFB72,
+                0 0 25px #FEFB72,
+                0 0 50px #FEFB72,
+                0 0 100px #FEFB72;
+  }
+
+  .orange-btn:hover{
+    box-shadow: 0 0 5px #B10F2E,
+                0 0 25px #B10F2E,
+                0 0 50px #B10F2E,
+                0 0 100px #B10F2E;
+  }
+
