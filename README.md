@@ -21,6 +21,8 @@ Each project is unique and covers different aspects of programming, including **
 | Day | Project Name | Description |  
 |-----|-------------|-------------|  
 | 1️⃣ | **Background Changer** 🎨 | A simple project that changes the background color when you click different buttons. |
+| 2️⃣ | **My Own HTTP Server**    | A basic HTTP server built from scratch that serves simple requests. |
+| 3️⃣ | **To Do App**             | A simple to-do list app where users can add, remove, and check tasks. |
 | ... | _More projects coming soon!_ 🚀 | ... |  
 
 ---
