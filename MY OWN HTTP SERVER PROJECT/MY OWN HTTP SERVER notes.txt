@@ -1,0 +1,4 @@
+MY OWN HTTP SERVER 
+
+npm init kr lena it helps in creating package.json file ban jaati hai 
+
